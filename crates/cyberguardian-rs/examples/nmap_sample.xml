@@ -1,0 +1,18 @@
+<nmaprun>
+  <host>
+    <address addr="192.168.1.10"/>
+    <hostnames>
+      <hostname name="web.local"/>
+    </hostnames>
+    <ports>
+      <port protocol="tcp" portid="80">
+        <state state="open"/>
+        <service name="http"/>
+      </port>
+      <port protocol="tcp" portid="22">
+        <state state="closed"/>
+        <service name="ssh"/>
+      </port>
+    </ports>
+  </host>
+</nmaprun>
